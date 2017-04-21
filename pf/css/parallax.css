@@ -1,0 +1,57 @@
+/* Sides */
+.cbp-so-side {
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+/* Initial state (hidden or anything else) */
+.cbp-so-init .cbp-so-side {
+	opacity: 0;
+}
+
+.cbp-so-init .cbp-so-side-left {
+	-webkit-transform: translateX(-100px);
+	-moz-transform: translateX(-100px);
+	transform: translateX(-100px);
+}
+
+.cbp-so-init .cbp-so-side-right {
+	-webkit-transform: translateX(100px);
+	-moz-transform: translateX(100px);
+	transform: translateX(100px);
+}
+
+.cbp-so-init .cbp-so-side-top {
+	-webkit-transform: translateY(-80px);
+	-moz-transform: translateY(-80px);
+	transform: translateY(-80px);
+}
+
+.cbp-so-init .cbp-so-side-bottom {
+	-webkit-transform: translateY(80px);
+	-moz-transform: translateY(80px);
+	transform: translateY(80px);
+}
+
+/* Animated state */
+/* add you final states (transition) or your effects (animations) for each side */
+.cbp-so-section.cbp-so-animate .cbp-so-side-left,
+.cbp-so-section.cbp-so-animate .cbp-so-side-right {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.cbp-so-section.cbp-so-animate .cbp-so-side-top,
+.cbp-so-section.cbp-so-animate .cbp-so-side-bottom {
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+
+
+
