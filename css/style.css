@@ -1,0 +1,10 @@
+body{
+	/*font-family: 'Ravi Prakash', cursive;*/
+	font-family: 'Viga', sans-serif;
+}
+.titulo{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url('../img/img2.jpg');
+}
