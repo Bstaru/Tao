@@ -1,7 +1,17 @@
-body{
-	/*font-family: 'Ravi Prakash', cursive;*/
-	font-family: 'Viga', sans-serif;
-}
+/*GENERALES*/
+	body{
+		/*font-family: 'Ravi Prakash', cursive;*/
+		font-family: 'Viga', sans-serif;
+	}
+/*NAVBAR*/
+	a {color: white;}
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+	  color: white;
+	  text-decoration: none;
+	  background-color: rgba(0,0,0,0.2);
+	}
+/*TITULO*/
 .titulo{
 	background-repeat: no-repeat;
 	background-size: cover;
