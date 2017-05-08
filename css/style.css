@@ -17,4 +17,15 @@
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url('../img/img2.jpg');
+	color: white;
+
+	position: relative;
+	top: 60px;
+	}
+.menu{
+
+}
+
+.mas{
+	color: white;
 }
