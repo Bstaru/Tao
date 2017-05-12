@@ -2,6 +2,7 @@
 	body{
 		/*font-family: 'Ravi Prakash', cursive;*/
 		font-family: 'Viga', sans-serif;
+		overflow-x: hidden;
 	}
 /*NAVBAR*/
 	a {color: white;}
@@ -21,17 +22,38 @@
 		height: 35px; width: 35px;
 	}
 /*TITULO*/
+.titulo, .mas{margin-bottom: 5px;}
 .titulo{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url('../img/img2.jpg');
 	color: white;
-
 	position: relative;
 	}
 
+.mas{}
 
-.mas{
-	color: white;
-}
+	#Main img{	height: 500px;}
+	.info1 img{ width: 100%;}
+
+ 	.info1, .info2,.info3{
+ 		max-height: 300px;
+		background-color: #efefef;
+	}
+
+	.logoTao img{
+		height: 200px;
+	}
+	.Jugabilidad{
+		font-size: 20px;		
+		text-shadow: 0 0 10px #FFFFFF;
+	}
+	.portas img{
+		max-width: 370px;
+		box-shadow:0px 0px 25px rgba(255,255,255,.5);
+	}
+	.portas2 img{
+		max-width: 900px;
+		box-shadow:0px 0px 25px rgba(255,255,255,.5);
+	}
