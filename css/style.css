@@ -11,6 +11,15 @@
 	  text-decoration: none;
 	  background-color: rgba(0,0,0,0.2);
 	}
+	.menu{
+	margin-bottom: 55px;
+	}
+	.logotipo{
+		padding: 7px;
+	}
+	.logotipo img {
+		height: 35px; width: 35px;
+	}
 /*TITULO*/
 .titulo{
 	background-repeat: no-repeat;
@@ -20,11 +29,8 @@
 	color: white;
 
 	position: relative;
-	top: 60px;
 	}
-.menu{
 
-}
 
 .mas{
 	color: white;
