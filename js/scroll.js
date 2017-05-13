@@ -1,7 +1,7 @@
 $(function(){
 	var animating = false;
 	var lastId,
-		topMenu = $(".menu"),
+		topMenu = $(".jej"),
 		// All list items
 		menuItems = topMenu.find("a").add($('.mbl-menu').find('a')),
 		// Anchors corresponding to menu items
